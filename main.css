@@ -1,16 +1,22 @@
+/* full page */
 @import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
 * {
     font-family: 'Chilanka', cursive;
-    color: rgb(0, 134, 158)
+    color: white;
 }
 
 body {
-    background-image: url("images/gif2.gif");
+    background-image: url("images/pnksc.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 
+p {
+    font-size: 24px;
+    padding: 10px 100px 10px;
+}
 .center {
     text-align: center;
 }
@@ -19,7 +25,7 @@ body {
     font-size: xx-large;
 }
 
-
+/* navigation bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -29,21 +35,32 @@ ul {
 }
 li {
     display: block;
-    color: white;
     padding: 8px 16px;
     text-decoration: none;
+    font-size: 24px;
     
 }
 li :hover{
-    background-color: rgb(112, 199, 112);
+    background-color: rgb(18, 190, 162);
     color:white;
 }
 
+/* titles */
 h1 {
-    color:rgb(19, 59, 121);
+    color:rgb(18, 190, 162);
     font-size: 50px;
 
 }
 h2 {
-    color:rgb(19, 59, 121)
+    color:rgb(19, 190, 162);
+    font-size: 40px;
+}
+
+h4 {
+    color: rgb(221, 56, 84);
+    font-size: 25px;
+}
+
+.meMeBigBoy {
+    font-size: 30px;
 }
